@@ -1,0 +1,11 @@
+{
+    "id": "mcflowblock",
+    "name": "mcflowblock",
+    "description": "Theme for Azuriom",
+    "version": "1.0.0",
+    "url": "https://mcflowblock.com",
+    "authors": [
+        "GaspardG"
+    ],
+    "azuriom_api": "1.0.0"
+}
