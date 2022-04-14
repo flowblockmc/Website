@@ -1,0 +1,18 @@
+{
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget turpis pulvinar, efficitur dui sit amet, vestibulum quam.",
+    "footer_description": "Ceci est un test",
+    "footer_links": [
+        {
+            "name": "Link 1",
+            "value": "https://azuriom.com"
+        },
+        {
+            "name": "Link 2",
+            "value": "https://azuriom.com"
+        },
+        {
+            "name": "Link 3",
+            "value": "https://azuriom.com"
+        }
+    ]
+}
