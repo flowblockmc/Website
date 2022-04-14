@@ -8,15 +8,15 @@
             <div class="row justify-content-center align-items-center text-center text-white h-100">
                 <div class="col-md-8">
                     <div class="status">
-                        @if($server && $server->isOnline())
-                            <a class="navbar-brand me-4" href="{{ route('home') }}">
+                        <a class="navbar-brand me-4" href="{{ route('home') }}">
                                 @if(setting('logo'))
-                                    <img src="{{ image_url(setting('logo')) }}" alt="Logo" width="200">
+                                    <img src="{{ image_url(setting('logo')) }}" alt="Logo">
                                 @else
                                     {{ site_name() }}
                                 @endif
-                            </a>
+                        </a>
                         <hr>
+                        @if($server && $server->isOnline())
                             {{ trans_choice('messages.server.online', $server->getOnlinePlayers()) }}
                         @else
                             {{ trans('messages.server.offline') }}
@@ -26,4 +26,6 @@
             </div>
         </div>
     </div>
+    <center><h1>TEST</h1>
+    <p>{{ theme_config('footer_description') }}</p></center>
 @endsection
